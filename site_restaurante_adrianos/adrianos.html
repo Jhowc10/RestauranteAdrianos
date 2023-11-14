@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="shortcut icon" href="faviconAdri/favicon-32x32.png" type="image/x-icon">
+    <title>Restaurante Adriano's</title>
+                                   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <script type="text/javascript" src="jquery-3.7.0.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+
+    <link rel="stylesheet" href="estilo/styleNav.css">
+    <link rel="stylesheet" href="estilo/styleMain.css">
+    <link rel="stylesheet" href="estilo/styleFot.css">
+    <link rel="stylesheet" href="estilo/carousel.css">
+</head>
+
+<body onresize="mudarTam()">
+    
+    <header>
+        <h1>Adriano's</h1>
+    </header>
+    
+        <nav id="nav">              
+       <!-- <span id="burguer" class="material-icons" onclick="clickMenu()">Menu</span> -->
+            <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+            
+            <menu id="ite">
+                <ul class= "container">            
+                    <li><a href="#" rel="next">QUEM SOMOS</a></li>
+
+                    <li class="dropdown">
+                        <a href="#">GALERIA<i class="fa fa-angle-down"></i></a>
+                        <div class="mega-menu">
+                            <div class="container">
+                                <div class="item">
+                                    <ul class="subMenu">
+                                        <li><a href="fotos.html" rel="next">FOTOS</a></li>
+                                        <li><a href="#" rel="next">VIDEOS</a></li> 
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown"><a href="#">CARDÁPIO<i class="fa fa-angle-down"></i></a>
+                        <div class="mega-menu">
+                            <div class="container">
+                                <div class="item"></div>
+                                    <ul class="subMenu">
+                                        <li><a href="cardapio.html" rel="next" class="car">CARDÁPIO SELF SERVICE</a></li>
+                                        <li><a href="#" rel="next" class="car">CARDÁPIO DELIVERY</a></li>
+                                        <li><a href="#" rel="next" class="car">SOBREMESAS</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </menu>  
+        </nav>                 
+    <main>
+        <section class="normal1"></section>
+
+        <section class="imagem" id="img01">
+
+        </section>
+
+        <section class="normal2"></section>
+
+        <section class="imagem" id="img02">
+
+        </section><section class="normal"></section>
+
+    </main>
+
+    <footer>
+        <div id="redSoc" class="di">
+            <picture> <!-- Procurar uma imagem com resolução melhor -->
+                <source media="(max-width: 300px)" srcset="logo/logoOrig.pq.png" type="image/png">
+                <img id="logo" src="logo/logoOrig.png" alt="logotipo">
+            </picture>
+
+            <h3 id="h">REDES SOCIAIS</h3>       
+            <ul class="list">              
+                <li><img src="icones png/facebook4.png" id="face" class="ico"><a href="https://www.facebook.com/adrianosrestaurantesantoandre/?locale=pt_BR" target="_blank" rel="external">Facebook</a></li>
+                <li><img src="icones png/instagram4.png" id="insta" class="ico"></imd><a href="#" target="_blank" rel="external">Instagram</a></li>
+                <li><img src="icones png/twitter4.png" id="twit" class="ico"><a href="#" target="_blank" rel="external">Twiter</a></li>
+            </ul>
+        </div>
+
+        <div id="cont" class="di">
+            <h3>FALE CONOSCO</h3>
+            <br>
+            <ul class="list">
+                <li class="cen">E-mail: </li>
+                <li id="tel" class="cen"><img src="icones png/telefone.png" id="face" class="ico">(11) 4994-1489<li>  
+                <li id="tel" class="what"><a href="#"><img src="icones png/zap.png" id="face" class="ico">(11) 96459-8383</a> </li>             
+            </ul>
+        </div>
+
+        <div id="diver" class="di">
+            <h3>NOSSAS UNIDADES</h3>
+            <ul class="list">
+                <li class="cen" id="pad"><img src="icones png/location.png" id="face" class="ico"><a href="https://goo.gl/maps/8YNmkuR9AoMgYX239" target="_blank" rel="external">Santo André</a></li>
+                <li class="cen" id="pa"><img src="icones png/location.png" id="face" class="ico"><a href="https://goo.gl/maps/oxAfkQqKkSjazPSk8" target="_blank" rel="external">Guarujá</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+<!-- <script type="text/javascript" src="jquery-3.7.0.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script src="JavaScript/responsivo.js"></script>
+
+</body>
+</html>

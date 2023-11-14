@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+:root{
+    --cor0:#0B0B0D;
+    --cor1:#1C8C58;
+    --cor2:#FF8F14;
+    --cor3:#9e5f48;
+    --cor4:#733924;   
+}
+
+main{
+    margin: auto;
+    background-color: var(--cor3);
+    box-sizing: border-box;
+}
+.normal1{
+    height: 650px;
+    background-color: var(--cor1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+.normal2{
+    height: 650px;
+    background-color: var(--cor1);
+}
+.normal1 h3{
+    text-align: left;
+    padding: 10px; 
+}
+.normal1 dl{
+    /* text-align: left; */
+    /* margin-top: 30px; */
+    padding: 60px 0px 0px 50px;
+    columns: 3;
+
+}
+.normal1 dd{
+    padding-bottom: 20px;
+
+}
+.imagem{
+    height: 400px;
+    background-color: var(--cor4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 6px 6px 9px rgba(0, 0, 0, 0.514);
+    background-attachment: fixed;
+
+}
+#img01{
+    background-image: url('../FotosRest/Buffe2.jpg');
+    background-position: center right;
+}
+#img02{
+    background-image: url('../FotosRest/interior1.jpg');
+    background-position: center center;
+
+}

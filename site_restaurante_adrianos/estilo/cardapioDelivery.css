@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@font-face{
+    font-family: Adri;
+    src:url(../fontLogo/TheNautigal-Bold.ttf) format(truetype), url(../fontLogo/TheNautigal-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --cor0:#0B0B0D;
+    --cor1:#1C8C58;
+    --cor2:#FF8F14;
+    --cor3:#9e5f48;
+    --cor4:#733924;   
+
+    --fot-log: Adri, serif;
+}
+
+html{
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to bottom, #d79e61, rgb(248, 233, 204));
+}
+header{    
+    background-color: var(--cor2);
+    text-align: left;
+    text-indent: 30px;
+    font-family: var(--fot-log);   
+    margin: auto;
+    padding: 5px 1px 1px 1px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+#voltar{
+    text-align: right;
+    padding-top: 8px;
+}
+ul{
+    list-style-type: square;
+}

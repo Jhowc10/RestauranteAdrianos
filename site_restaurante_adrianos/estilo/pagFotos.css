@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@font-face{
+    font-family: Adri;
+    src:url(../fontLogo/TheNautigal-Bold.ttf) format(truetype), url(../fontLogo/TheNautigal-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@media(max-width: 968px){  /* deixando responsivo */
+    footer{
+        flex-direction: column; 
+    } 
+    #redSoc{
+        width: 250px;
+        text-align: left;
+        padding-left: 1px;
+        padding-top: 80px;
+    }
+    #cont{
+        width: 250px;
+        text-align: left;
+    }
+    #h{
+        padding-left: 0px;
+    }
+    #diver{
+        width: 45%;
+        text-align: left;
+    }
+    .div:nth-child(3){ 
+        width: 250px;
+        text-align: left;
+    }
+    .cen{ 
+        text-align: center;
+        padding: 2px;
+    }
+    #pad, #pa{
+        padding-left: 40px;
+    }
+} 
+/* ..................................... */
+
+:root{
+    --cor0:#0B0B0D;
+    --cor1:#1C8C58;
+    --cor2:#DB720B;
+    --cor3:#9e5f48;
+    --cor4:#733924;
+    --cor5: #fff;
+    
+    --fot-log: Adri, serif;
+}
+::-webkit-scrollbar{
+    height: 0px;   
+}
+
+/* ...................................... */
+
+*{
+    margin: 0px;  
+    padding: 0px;
+}
+body{
+    margin: auto;
+}
+header{
+    background-color: var(--cor2);
+    height: 100px;
+    text-align: left;
+}
+header h1{
+    padding-top: 13px;
+    font-family: var(--fot-log);
+    font-size: 4em;
+    text-indent: 30px;
+}
+section{
+    background-color: var(--cor1);
+    width: 100vw;
+    height: 150vh;
+}
+section img{
+    background-color: var(--cor3);
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+/* -------------------------------------- */
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor0); 
+    background-attachment: fixed;
+    display: flex;  
+    min-height: 350px;  
+} 
+footer > div > h3 {
+    color: var(--cor5);
+    padding: 15px;
+}
+footer a{                /* deixando responsivo */
+    color: var(--cor5);
+    font-size: 1.3em;
+}
+.di{                    /* deixando responsivo */
+    width: 32.5vw;
+}
+.div:nth-child(3){      /* deixando responsivo */
+    width: 400px;
+}
+.list{
+    list-style: none;
+}
+#logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+#redSoc{   
+    text-align: left;
+    text-indent: 50px;  
+}
+#redSoc a:hover{
+    color: var(--cor2);
+    font-weight: 600;
+}
+#cont{
+    color: var(--cor5);   
+    text-align: center;
+    margin-top: 120px;
+}
+#tel{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+#diver{   
+    text-align: right;   
+    margin-top: 120px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+#diver a:hover{
+    color: var(--cor2);
+    font-weight: 600;
+}
+.ico{
+    padding-right: 10px;
+}
+#pad, #pa{
+    padding-right: 10px;
+}
+    
